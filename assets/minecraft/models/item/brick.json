@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/brick"
+    },
+      "overrides":[
+        { "predicate": {"custom_model_data": 10170001}, "model": "minecraft:item/steel"},
+        { "predicate": {"custom_model_data": 10170002}, "model": "minecraft:item/black_diamond"},
+        { "predicate": {"custom_model_data": 10170003}, "model": "minecraft:item/sky_crystal"},
+        { "predicate": {"custom_model_data": 10170004}, "model": "minecraft:item/steel_gear"},
+        { "predicate": {"custom_model_data": 10170005}, "model": "minecraft:item/black_diamond__gear"},
+        { "predicate": {"custom_model_data": 10170006}, "model": "minecraft:item/sky_crystal_gear"},
+        { "predicate": {"custom_model_data": 10170007}, "model": "minecraft:item/wooden_gear"}
+      ]
+    }
